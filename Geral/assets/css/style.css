@@ -24,7 +24,7 @@ html,body {
 
 .center {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin:0 auto;
     padding:0 2%;
 }
@@ -42,8 +42,8 @@ header {
 .flex-division {
     display:flex;
     align-items:center;
-    justify-content:center;
-    gap:25rem;
+    justify-content:space-between;
+    
 }
 
 .wrapper-division {
@@ -174,7 +174,7 @@ section.session-one {
 }
 
 section.session-one .center {
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .design02 {
@@ -239,7 +239,7 @@ section.session-two {
 }
 
 section.session-two .center {
-    max-width:1000px;
+    max-width:1200px;
 }
 
 .single-part {
@@ -317,7 +317,7 @@ footer .design03 img {
 }
 
 footer .center {
-    max-width:1000px;
+    max-width:1200px;
 }
 
 .flex1-footer {
