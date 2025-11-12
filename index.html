@@ -7,8 +7,9 @@
     <title>Insure Landing Page </title>
     <!--link css-->
     <link rel="stylesheet" href="./Geral/assets/css/style.css" />
+    <link rel="stylesheet" href="./Geral/assets/css/media.css"/>
     <!---->
-    <link rel="icon" type="image/png" href="./Geral/assets/img/icon_insure.png">
+   <link rel="icon" type="image/png" href="./Geral/assets/img/icon_insure.png">
 </head>
 
 <body>
@@ -33,12 +34,51 @@
                         </button>
                     </div>
                 </div>
+                <div class="list-mobile" id="list-mobile">
+                    <img src="./Geral/assets/img/icon-hamburger.svg" alt="icon-hamburger"/>
+                </div>
+                <div class="menu-mobile" id="menu-mobile">
+                    <div class="btn-close">
+                        <img src="./Geral/assets/img/icon-close.svg" alt="icon-close"/>
+                    </div>
+                    <div class="wrapper-menu">
+                        <nav class="nav-mobile">
+                            <ul>
+                                <li><a href="#">How we work</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Account</a></li>
+                            </ul>
+                        </nav>
+                        <div class="buttonMobile">
+                            <button class="btn-menu">
+                                <span>VIEW PLANS</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay-menu" id="overlay-menu"></div>
             </div>
         </div>
     </header>
     <!---->
     <!--main-->
     <main>
+        <!--Mobile-main-->
+         <div style="background-image:url('./Geral/assets/img/image-intro-mobile.jpg');" class="image-mobile"></div>
+         <div class="design-mobile">
+            <img src="./Geral/assets/img/bg-pattern-intro-left-mobile.svg" alt="bg-pattern-intro-left-mobile"/>
+         </div>
+         <div class="info-mobile">
+            <h2 class="title-mobile">Humanizing your insurance.</h2>
+            <p class="text-mobile">Get your life insurance coverage easier and faster. We blend our expertise and technology to
+            help you find the plan that's right for your. Ensure you and your loved ones are protected.</p>
+            <div class="button-mobile">
+                <button class="btn02-mobile">
+                    <span>VIEW PLANS</span>
+                </button>
+            </div>
+         </div>
+        <!---->
         <div class="design01">
             <img src="./Geral/assets/img/bg-pattern-intro-right-desktop.svg" alt="bg-pattern-intro-right-desktop" />
         </div>
@@ -69,6 +109,9 @@
     <!---->
     <!--section session-one-->
     <section class="session-one">
+        <div class="design02-mobile">
+            <img src="./Geral/assets/img/bg-pattern-intro-right-mobile.svg" alt="bg-pattern-intro-right-mobile"/>
+        </div>
         <div class="design02">
             <img src="./Geral/assets/img/bg-pattern-intro-left-desktop.svg" alt="bg-pattern-intro-left-desktop">
         </div>
@@ -113,6 +156,11 @@
                     </div>
 
                 </div>
+                <!--image mobile-->
+                <div class="design03-mobile">
+                    <img src="./Geral/assets/img/bg-pattern-how-we-work-mobile.svg" alt="bg-pattern-how-we-work-mobile"/>
+                </div>
+                <!---->
                 <div class="image-part">
                     <img src="./Geral/assets/img/bg-pattern-how-we-work-desktop.svg"
                         alt="bg-pattern-how-we-work-desktop" />
@@ -123,6 +171,11 @@
     <!---->
     <!--footer-->
     <footer>
+        <!--icon-mobile-->
+        <div class="design04-mobile">
+            <img src="./Geral/assets/img/bg-pattern-footer-mobile.svg" alt="bg-pattern-footer-mobile"/>
+        </div>
+        <!---->
         <div class="design03">
             <img src="./Geral/assets/img/bg-pattern-footer-desktop.svg" alt="bg-pattern-footer-desktop" />
         </div>
@@ -174,9 +227,10 @@
     <!--fontawesome-->
     <script src="https://kit.fontawesome.com/b8f9f3da7a.js" crossorigin="anonymous"></script>
     <!---->
+
+    <!--script js-->
+    <script src="./Geral/assets/js/menu.js"></script>
+    <!---->
 </body>
 
-
 </html>
-
-
