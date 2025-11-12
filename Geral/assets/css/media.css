@@ -1,0 +1,183 @@
+/* Media Queries*/
+@media screen and (max-width:945px) {
+  .right-image img {
+    width:400px;
+  }
+}
+
+@media screen and (max-width:843px) {
+  .title-main > h2 {
+    font-size:2.3rem;
+   
+  }
+}
+
+@media screen and (max-width:760px) {
+    nav.desktop  {
+      display:none;
+    }
+
+    .button button.btn-menu {
+      display:none;
+    }
+
+    .list-mobile {
+       display:block;
+    }
+
+    .menu-mobile {
+      display:block;
+    }
+    
+  
+    main {
+      height: 1000px;
+    }
+
+    .design-mobile {
+     display:block;
+    }
+
+    .image-mobile {
+      display:block;
+    }
+
+    .title-mobile {
+     display: block;
+    }
+
+    .text-mobile {
+       display:block;
+    }
+
+    .button-mobile {
+      display:block;
+    }
+
+
+    .design01 {
+        display:none;
+    }
+
+    .left-description {
+      display:none;
+    }
+
+    .right-image {
+      display:none;
+    }
+
+    .design02 {
+       display:none;
+    }
+
+  .design02-mobile {
+    display:block;
+  }
+
+  section.session-one {
+    padding:2rem 0;
+  }
+
+  section.session-one .center {
+    max-width: 1200px;
+    margin-top:2rem;
+  }
+
+  .border-top02 {
+    margin: 0 auto;
+   }
+
+   .title-session1 {
+    text-align: center;
+   }
+
+  .wrapper-compartment {
+    display: block;
+    text-align: center;
+    margin-top: 2.8rem;
+    
+  }
+
+  .box:nth-child(2) {
+    margin-top: 1.5rem;
+  }
+
+  .box:nth-child(3) {
+    margin-top: 1.5rem;
+  }
+
+  .box > p {
+    margin:0 auto;
+    max-width:300px;
+    
+  }
+
+  .flex-part {
+      flex-direction: column;
+      justify-content:center;
+      padding:3rem 0;
+  }
+
+  .flex-part h2 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .button-part  {
+    margin-top: 1rem;
+  }
+
+  .image-part {
+    display: none;
+  }
+
+  .design03-mobile {
+    display:block;
+  }
+
+  .flex1-footer {
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top:65px;
+   
+  }
+
+  .logo-footer img {
+    margin-bottom: 1.2rem;
+  }
+
+  footer {
+   height:790px;
+  }
+
+  .wrapper-list {
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+    margin-top:1rem;
+   
+  }
+
+  .design03 {
+    display:none;
+  }
+
+  .design04-mobile {
+    display: block;
+  }  
+
+}
+
+@media screen and (max-width:430px) {
+ 
+  .image-mobile {
+    height:50vh;
+   
+ 
+  }
+  
+}
+/*****/
