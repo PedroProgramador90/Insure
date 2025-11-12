@@ -28,7 +28,7 @@ Este projeto é uma landing page moderna e elegante para uma empresa de seguros 
 O design segue um guia de estilo específico com:
 - Paleta de cores moderna e profissional
 - Tipografia elegante e legível
-- Layouts para desktop (1000px) e mobile (760px)
+- Layouts para desktop (1200px) e mobile (760px)
 - Elementos visuais e ícones otimizados
 
 ## 📱 Responsividade
@@ -36,7 +36,7 @@ O design segue um guia de estilo específico com:
 O projeto foi desenvolvido com abordagem **mobile-first** e se adapta perfeitamente a:
 - 📱 Dispositivos móveis (375px+)
 - 💻 Tablets e laptops (768px+)
-- 🖥️ Desktops (1000px)
+- 🖥️ Desktops (1200px)
 
 ## 🛠️ Como Executar o Projeto
 
@@ -95,7 +95,7 @@ Durante o desenvolvimento deste projeto, pratiquei e aprimorei:
 
 ## 🌐 Demo
 
-🔗 [Ver projeto ao vivo](https://seu-usuario.github.io/insure-landing-page)
+🔗 [Ver projeto ao vivo](https://insure-jet.vercel.app/)
 
 ## 📸 Screenshots
 
