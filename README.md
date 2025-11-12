@@ -97,14 +97,6 @@ Durante o desenvolvimento deste projeto, pratiquei e aprimorei:
 
 🔗 [Ver projeto ao vivo](https://insure-jet.vercel.app/)
 
-## 📸 Screenshots
-
-### Desktop
-![Desktop](./design/desktop-design.jpg)
-
-### Mobile
-![Mobile](./design/mobile-design.jpg)
-
 ## 👤 Autor
 
 **Pedro Henrique**
